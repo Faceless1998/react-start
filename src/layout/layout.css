@@ -1,0 +1,9 @@
+/*layout.css*/
+div{
+    background-color: aqua;
+}
+
+.my_link{
+    color: red;
+    text-decoration: none;
+}
