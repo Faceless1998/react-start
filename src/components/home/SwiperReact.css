@@ -1,0 +1,45 @@
+.swiper-container{
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 90%;
+    height: 250px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h3{
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    color: #000;
+}
+
+.swiper-pagination-bullet{
+    background-color: #000;
+}
